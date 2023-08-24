@@ -1,0 +1,63 @@
+.loginContainer {
+  height: 100vh;
+  background-image: url(/assets/login.png);
+  background-size: 100% 100%;
+  overflow: hidden;
+
+  .content {
+    width: 600px;
+    margin-top: 9vh;
+    margin-left: 6vw;
+
+    .title {
+      margin-top: 10vh;
+      color: rgba(255, 255, 255, 0.88);
+      font-weight: 600;
+      font-size: 50px;
+      font-family: "PingFangSC-Semibold, PingFang SC";
+      margin-bottom: 3vh;
+    }
+    .loginBtn {
+      width: 167px;
+      height: 50px;
+      margin-top: 5vh;
+      font-size: 18px;
+    }
+    .ant-form-vertical .ant-form-item-label > label {
+      color: #999;
+      font-size: 18px;
+      padding-left: 10px;
+    }
+    .ant-input-affix-wrapper {
+      background-color: transparent;
+      border-radius: 0;
+      border: none;
+      border-bottom: 1px solid white;
+      &:hover {
+        border-inline-end-width: 0;
+      }
+    }
+    .ant-input-affix-wrapper-focused {
+      box-shadow: none;
+    }
+
+    .ant-input {
+      background: transparent;
+      color: white;
+      font-size: 16px;
+    }
+    .ant-input::placeholder {
+      color: rgba(255, 255, 255, 0.36);
+    }
+    .ant-input-suffix {
+      color: white;
+    }
+
+    .ant-input-affix-wrapper .ant-input-clear-icon {
+      color: white;
+    }
+    .ant-input-affix-wrapper .anticon.ant-input-password-icon {
+      color: white;
+    }
+  }
+}
